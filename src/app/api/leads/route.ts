@@ -9,7 +9,7 @@ export async function POST(request: Request) {
     const data: LeadForm = await request.json();
 
     // Validación básica
-    if (!data.name || !data.email || !data.phone || !data.propertyType || !data.location) {
+    if (!data.name || !data.email || !data.phone || !data.propertyType) {
       return NextResponse.json(
         { error: 'Faltan campos requeridos' },
         { status: 400 }
@@ -33,8 +33,10 @@ export async function POST(request: Request) {
         <li><strong>Email:</strong> ${data.email}</li>
         <li><strong>Teléfono:</strong> ${data.phone}</li>
         <li><strong>Tipo de operación:</strong> ${data.propertyType}</li>
-        <li><strong>Ubicación:</strong> ${data.location}</li>
+        ${data.street ? `<li><strong>Calle:</strong> ${data.street}</li>` : ''}
+        ${data.city ? `<li><strong>Ciudad:</strong> ${data.city}</li>` : ''}
         ${data.budget ? `<li><strong>Presupuesto:</strong> ${data.budget}</li>` : ''}
+        ${data.publishedInAgency !== undefined ? `<li><strong>Ya publicado:</strong> ${data.publishedInAgency ? 'Sí' : 'No'}</li>` : ''}
       </ul>
 
       ${data.message ? `
@@ -53,7 +55,7 @@ export async function POST(request: Request) {
     const { data: emailData, error } = await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev',
       to: process.env.RESEND_TO_EMAIL || 'info@inmobiliarias-mostoles.com',
-      subject: `Nuevo Lead: ${data.name} - ${data.propertyType} en ${data.location}`,
+      subject: `Nuevo Lead: ${data.name} - ${data.propertyType}${data.city ? ` en ${data.city}` : ''}`,
       html: emailContent,
       replyTo: data.email,
     });
@@ -75,14 +77,14 @@ export async function POST(request: Request) {
         html: `
           <h2>¡Gracias por tu solicitud, ${data.name}!</h2>
 
-          <p>Hemos recibido tu solicitud de información para <strong>${data.propertyType}</strong> en <strong>${data.location}</strong>.</p>
+          <p>Hemos recibido tu solicitud de información para <strong>${data.propertyType}</strong>${data.city ? ` en <strong>${data.city}</strong>` : ''}.</p>
 
           <p>Las mejores inmobiliarias de Móstoles revisarán tu solicitud y te contactarán en menos de 24 horas para ofrecerte las mejores opciones del mercado.</p>
 
           <h3>Resumen de tu solicitud:</h3>
           <ul>
             <li><strong>Operación:</strong> ${data.propertyType}</li>
-            <li><strong>Ubicación:</strong> ${data.location}</li>
+            ${data.city ? `<li><strong>Ciudad:</strong> ${data.city}</li>` : ''}
             ${data.budget ? `<li><strong>Presupuesto:</strong> ${data.budget}</li>` : ''}
           </ul>
 

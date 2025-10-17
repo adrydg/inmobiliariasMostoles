@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import AgencyCard from '@/components/AgencyCard';
 import { getTopAgencies } from '@/data/agencies';
 import { generateFAQSchema } from '@/lib/schema';
+import { OpenLeadFormButton } from '@/components/LeadFormModal';
 
 export default function Home() {
   const topAgencies = getTopAgencies(3);
@@ -65,8 +66,7 @@ export default function Home() {
                 Recibe propuestas de las mejores agencias inmobiliarias <strong className="text-slate-200">desde la comodidad de tu sofá</strong>. Compara ofertas sin compromiso y ahorra hasta un 30% en comisiones.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/contacto"
+                <OpenLeadFormButton
                   className="group bg-amber-500 text-slate-900 px-10 py-4 rounded-sm font-semibold text-lg hover:bg-amber-400 transition-all shadow-lg hover:shadow-xl hover:scale-105 duration-300"
                 >
                   <span className="flex items-center justify-center gap-2">
@@ -75,7 +75,7 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                   </span>
-                </Link>
+                </OpenLeadFormButton>
                 <Link
                   href="/comparador"
                   className="border-2 border-slate-400 text-white px-10 py-4 rounded-sm font-semibold text-lg hover:bg-white hover:text-slate-900 transition-all duration-300"
@@ -572,8 +572,7 @@ al se traduce en valoraciones más precisas y argumentos de venta más sólidos.
             <p className="text-lg mb-12 text-slate-400 font-light max-w-2xl mx-auto">
               Valoración gratuita de tu vivienda • Mejores condiciones del mercado • Todo desde tu sofá
             </p>
-            <Link
-              href="/contacto"
+            <OpenLeadFormButton
               className="group inline-block bg-amber-500 text-slate-900 px-12 py-5 rounded-sm font-semibold text-xl hover:bg-amber-400 transition-all shadow-2xl hover:shadow-amber-500/50 hover:scale-105 duration-300"
             >
               <span className="flex items-center gap-2">
@@ -582,7 +581,7 @@ al se traduce en valoraciones más precisas y argumentos de venta más sólidos.
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </span>
-            </Link>
+            </OpenLeadFormButton>
             <p className="mt-8 text-sm text-slate-500">
               Más de 500 propietarios satisfechos en Móstoles
             </p>

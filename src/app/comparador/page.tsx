@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AgencyCard from '@/components/AgencyCard';
 import { agencies } from '@/data/agencies';
-import Link from 'next/link';
+import { OpenLeadFormButton } from '@/components/LeadFormModal';
 
 export const metadata: Metadata = {
   title: 'Comparador Inmobiliarias Móstoles | Mejores Agencias 2025',
@@ -97,12 +97,11 @@ export default function ComparadorPage() {
               <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
                 Déjanos ayudarte. Recibe ofertas personalizadas de hasta 3 agencias y compara sin compromiso.
               </p>
-              <Link
-                href="/contacto"
+              <OpenLeadFormButton
                 className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
               >
                 Solicitar Ofertas Gratis
-              </Link>
+              </OpenLeadFormButton>
             </div>
           </div>
         </section>

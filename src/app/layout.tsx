@@ -4,6 +4,7 @@ import "./globals.css";
 import { baseMetadata } from "@/lib/metadata";
 import { generateOrganizationSchema } from "@/lib/schema";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { LeadFormModalProvider } from "@/components/LeadFormModal";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,7 +33,9 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
-        {children}
+        <LeadFormModalProvider>
+          {children}
+        </LeadFormModalProvider>
       </body>
     </html>
   );
