@@ -74,58 +74,64 @@ export default function Navbar() {
                     📍 Ver Todos los Barrios
                   </Link>
                   <Link
-                    href="/centro"
+                    href="/centro-pradillo"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Centro
+                    Centro / Pradillo
                   </Link>
                   <Link
-                    href="/juan-de-la-cierva"
+                    href="/el-soto"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Juan de la Cierva
+                    El Soto
                   </Link>
                   <Link
-                    href="/sector-iii"
+                    href="/villafontana"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Sector III
+                    Villafontana
                   </Link>
                   <Link
-                    href="/mostoles-norte"
+                    href="/parque-coimbra"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Móstoles Norte
+                    Parque Coimbra
                   </Link>
                   <Link
-                    href="/el-bercial"
+                    href="/mostoles-sur"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    El Bercial
+                    Móstoles Sur
                   </Link>
                   <Link
-                    href="/la-alhondiga"
+                    href="/norte-universidad"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    La Alhóndiga
+                    Norte Universidad
                   </Link>
                   <Link
-                    href="/san-isidro"
+                    href="/estoril"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    San Isidro
+                    Estoril
                   </Link>
                   <Link
-                    href="/los-molinos"
+                    href="/mostoles-este"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Los Molinos
+                    Móstoles Este
                   </Link>
                   <Link
-                    href="/las-margaritas"
+                    href="/mostoles-oeste"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Las Margaritas
+                    Móstoles Oeste
+                  </Link>
+                  <Link
+                    href="/parque-guadarrama"
+                    className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
+                  >
+                    Parque Guadarrama
                   </Link>
                 </div>
               )}

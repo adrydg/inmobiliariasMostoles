@@ -15,6 +15,7 @@ export interface Agency {
   contactPhone: string;
   website: string;
   features: string[];
+  savings: number;
 }
 
 export interface LeadForm {

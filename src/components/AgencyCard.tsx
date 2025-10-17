@@ -9,16 +9,14 @@ export default function AgencyCard({ agency }: AgencyCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 border border-gray-200">
       <div className="flex items-start justify-between mb-4">
-        <div>
-          <h3 className="text-xl font-bold text-gray-900 mb-1">{agency.name}</h3>
-          <div className="flex items-center gap-2">
-            <div className="flex items-center">
-              <span className="text-yellow-500 text-lg">★</span>
-              <span className="font-semibold ml-1">{agency.rating}</span>
-            </div>
-            <span className="text-gray-500 text-sm">
-              ({agency.reviewsCount} valoraciones)
-            </span>
+        <div className="flex-1">
+          <h3 className="text-xl font-bold text-gray-900 mb-2">{agency.name}</h3>
+
+          {/* Cuadradito verde con ahorro */}
+          <div className="inline-block bg-green-50 border border-green-500 rounded-md px-3 py-1.5 mb-3">
+            <p className="text-green-700 font-semibold text-sm">
+              Ahorra hasta {agency.savings.toLocaleString('es-ES')}€ en la venta con nosotros
+            </p>
           </div>
         </div>
       </div>
@@ -72,20 +70,17 @@ export default function AgencyCard({ agency }: AgencyCardProps) {
         </ul>
       </div>
 
-      {/* Botones de acción */}
-      <div className="flex gap-2 mt-6">
+      {/* Botón de acción fuera de la card */}
+      <div className="mt-6">
         <Link
-          href={`/comparador/${agency.id}`}
-          className="flex-1 bg-blue-600 text-white text-center py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium text-sm"
+          href="/contacto"
+          className="block w-full bg-amber-500 text-white text-center py-3 rounded-lg hover:bg-amber-600 transition-colors font-semibold text-sm shadow-md"
         >
-          Ver Detalles
+          🎁 Recibir Propuesta Mejorada
         </Link>
-        <a
-          href={`tel:${agency.contactPhone}`}
-          className="flex-1 border border-blue-600 text-blue-600 text-center py-2 rounded-lg hover:bg-blue-50 transition-colors font-medium text-sm"
-        >
-          Llamar
-        </a>
+        <p className="text-xs text-center text-gray-500 mt-2">
+          Descuentos exclusivos en comisiones
+        </p>
       </div>
     </div>
   );

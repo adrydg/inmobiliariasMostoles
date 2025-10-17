@@ -184,6 +184,180 @@ export default function Home() {
                 Hemos analizado más de 160 inmobiliarias que operan en Móstoles, evaluando criterios como <strong>valoraciones de clientes reales</strong>, años de experiencia, cobertura territorial, comisiones, servicios adicionales y resultados en ventas. Trabajamos con las mejores agencias colaboradoras verificadas y con excelentes resultados en Móstoles.
               </p>
 
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                🥇 1. Tecnocasa Móstoles - Líder Indiscutible (4.9⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                <strong>Tecnocasa</strong> se posiciona como la <strong>mejor inmobiliaria en Móstoles</strong> gracias a su extensa red de 12 oficinas estratégicamente ubicadas en todos los barrios de la ciudad. Con más de 10 años de presencia local y más de 1.300 transacciones exitosas, han demostrado un profundo conocimiento del mercado inmobiliario de Móstoles.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Lo que más valoran los clientes es su <strong>política de comisión 0% para compradores</strong>, lo que convierte a Tecnocasa en una opción muy atractiva si estás buscando comprar piso en Móstoles sin pagar comisiones adicionales. Sus oficinas cubren desde Móstoles Centro hasta Loranca, El Molino, Hospital, Vivero y Parque de los Estados, garantizando atención especializada en cada zona.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Su red internacional les permite ofrecer compradores de fuera de España, acelerando las ventas. Destacan por su <strong>asesoramiento legal incluido</strong>, financiación personalizada hasta el 100% y equipo multilingüe. Ideal para todo tipo de operaciones: primera vivienda, inversión, obra nueva o segunda mano.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                🥈 2. MB Gestión Inmobiliaria - Veterana de Confianza (4.8⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Con <strong>más de 25 años de experiencia</strong> en Móstoles y la Comunidad de Madrid, MB Gestión Inmobiliaria es sinónimo de profesionalidad y resultados. Esta inmobiliaria local ha construido una reputación sólida basada en la <strong>valoración precisa de propiedades</strong> y la venta rápida gracias a su base de datos de más de 10.000 clientes activos.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Los clientes destacan su <strong>trato cercano y personalizado</strong>, algo que muchas cadenas nacionales han perdido. Ofrecen valoración gratuita en menos de 24 horas, home staging profesional incluido y una estrategia de marketing digital muy efectiva. Sus comisiones del 2.5-3.5% para vendedores son muy competitivas en el mercado de Móstoles.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                MB Gestión es particularmente fuerte en Móstoles, pero también tiene presencia consolidada en Getafe, Móstoles, Leganés y Alcorcón, lo que amplía significativamente el alcance para compradores potenciales. Perfecta si buscas <strong>vender rápido en Móstoles</strong> con garantías.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                🥉 3. RedPiso Móstoles Centro - Red Nacional Consolidada (4.8⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                <strong>RedPiso</strong> cuenta con dos oficinas en Móstoles (Centro y La Serna), formando parte de una red de más de 280 oficinas en toda España. Esta capilaridad les otorga un poder de difusión extraordinario para dar visibilidad a tu propiedad ante miles de compradores potenciales en todo el país.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                La oficina de <strong>Móstoles Centro</strong>, ubicada en Calle Luis Sauquillo 15, se especializa en el centro histórico y zonas adyacentes. Destacan por su <strong>gestoría propia</strong> que agiliza todos los trámites legales y su capacidad de conseguir financiación hasta el 100% del valor de la propiedad, crucial para jóvenes compradores.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Su portal inmobiliario propio recibe millones de visitas mensuales, multiplicando las posibilidades de venta o alquiler. Como compradores, no pagas comisión. Como vendedor, sus tarifas del 3-4% incluyen fotografía profesional, visitas virtuales y publicación en los principales portales (Idealista, Fotocasa, etc.).
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                4. Hogares Móstoles La Avanzada - Grupo Nacional de Calidad (4.7⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Parte del prestigioso <strong>Hogares Group</strong>, esta agencia aporta la solidez de un grupo nacional con la atención personalizada de una oficina local. Desde su apertura en 2015 en el barrio de La Avanzada, han consolidado su presencia con especialización en <strong>chalets, pisos familiares y locales comerciales</strong>.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Ofrecen tour virtual 360° de todas sus propiedades, especialmente útil para compradores que viven lejos. Su servicio de <strong>asesor personal asignado</strong> garantiza un seguimiento continuo durante todo el proceso. Las comisiones van del 3-4.5% para vendedores, incluyendo valoración certificada oficial.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Destacan en propiedades de Móstoles Sur, zona de La Avanzada y polígono industrial. Si buscas vender o comprar un local comercial en Móstoles, Hogares Group tiene un equipo especializado. Su garantía de satisfacción y reputación nacional aportan confianza extra.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                5. RedPiso Móstoles La Serna - Especialistas en La Serna (4.8⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                La segunda oficina de RedPiso en Móstoles se ubica estratégicamente en <strong>Calle de Méjico 1</strong>, en pleno corazón del barrio de La Serna. Este barrio, uno de los más poblados y dinámicos de Móstoles, requiere conocimiento local especializado que este equipo domina perfectamente.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Los <strong>expertos de la zona La Serna</strong> conocen cada calle, cada comunidad de vecinos, los mejores colegios, centros de salud y comercios. Este conocimiento hiperloc
+
+al se traduce en valoraciones más precisas y argumentos de venta más sólidos. También cubren Nuevo Versalles y Vivero.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Ofrecen la app móvil RedPiso para seguimiento en tiempo real de tu proceso de compraventa, valoración express en 24h y acceso prioritario a nuevas propiedades antes de publicarse en portales. Perfectos si buscas <strong>piso en La Serna Móstoles</strong> con conocimiento especializado del barrio.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                6. La Casa Agency - Atención Boutique Premium (4.7⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                <strong>La Casa Agency</strong> se diferencia por su enfoque boutique y atención ultra-personalizada. Con una puntuación de 8.5 en Trustlocal (Top 10 nacional), esta agencia se especializa en <strong>propiedades de calidad y clientes exigentes</strong> que buscan un servicio premium.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                A diferencia de las grandes cadenas, La Casa Agency limita el número de propiedades para dar atención exclusiva a cada cliente. Incluyen home staging premium valorado en varios miles de euros, fotógrafo profesional certificado y video promocional en 4K con drone para propiedades exclusivas.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Sus comisiones del 3.5-4.5% se justifican por el servicio completo y los resultados: venden un 40% más rápido que la media del mercado. Operan en Móstoles, Humanes y Moraleja de Enmedio. Ideal si vendes un <strong>piso premium, chalet o ático exclusivo en Móstoles</strong>.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                7. Grupo Inmobiliario Darek - Venta Rápida Garantizada (4.6⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                El <strong>Grupo Darek</strong> destaca por una característica única: su <strong>red activa de compradores</strong> que reduce drásticamente los tiempos de venta. Con un promedio de 60 días para vender (frente a los 150 días de media nacional), son los especialistas en ventas rápidas en la zona sur de Madrid.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Su estrategia de marketing agresivo incluye inversión en publicidad online, llamadas activas a compradores potenciales y open houses semanales. Las comisiones del 2.5-3.5% son competitivas, y no exigen permanencia mínima, por lo que si en 60 días no están satisfechos, pueden cambiar de inmobiliaria sin penalización.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Además de Móstoles, operan en Getafe, Pinto y Parla, ampliando el pool de compradores. Se especializan en <strong>pisos, bajos comerciales y garajes</strong>. Su valoración certificada oficial es perfecta si necesitas documentación para bancos o herencias. Recomendados si necesitas <strong>vender piso Móstoles urgente</strong>.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                8. Primer Paso Inmobiliaria - Expertos en Jóvenes (4.5⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                <strong>Primer Paso</strong> es la inmobiliaria ideal si eres joven y buscas tu <strong>primera vivienda en Móstoles</strong>. Su equipo se especializa en ayudas públicas, subvenciones para jóvenes menores de 35 años, bonos alquiler joven y todas las facilidades que ofrecen las administraciones.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Ofrecen <strong>asesoría financiera gratuita</strong> para conseguir las mejores condiciones de hipoteca, incluyendo análisis de todas las entidades bancarias. Gestionan los trámites de subvenciones de la Comunidad de Madrid y del Ayuntamiento de Móstoles, ahorrándote tiempo y dinero.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Sus comisiones son de las más bajas (2-3%), perfectas para compradores con presupuesto ajustado. No cobran comisión a compradores. También se especializan en VPO (Viviendas de Protección Oficial) y pisos de cooperativas. Su respuesta es rapidísima (24h). Perfectos para <strong>comprar primer piso Móstoles jóvenes</strong>.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                9. Alfa Inmobiliaria Hermanos Pardo - Tradición Familiar (4.6⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Con <strong>27 años de trayectoria</strong>, Alfa Inmobiliaria es una empresa familiar que combina valores tradicionales con métodos actuales. Los hermanos Pardo han construido una reputación basada en la honestidad, transparencia y <strong>valoraciones realistas</strong> que evitan decepciones.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Se especializan en propiedades familiares: <strong>chalets, pisos grandes, casas adosadas</strong> y tramitación de herencias. Su experiencia de casi tres décadas les da una perspectiva única del mercado inmobiliario de Móstoles y toda la zona sur de Madrid.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                El trato es ultra-personalizado, casi como un asesor familiar. Sus comisiones del 3-4% incluyen gestión integral de documentación, escrituras y coordinación con notarías. Gran cartera de clientes satisfechos que repiten y recomiendan. Perfectos si buscas <strong>vender chalet Móstoles</strong> con profesionales de confianza.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
+                10. DAGOSA Consultores - Inversión y Patrimonio (4.5⭐)
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                <strong>DAGOSA</strong> no es una inmobiliaria convencional, son <strong>consultores inmobiliarios especializados</strong> en inversión, gestión patrimonial y grandes operaciones. Si buscas comprar varias propiedades en Móstoles como inversión o necesitas asesoramiento profesional sobre tu patrimonio inmobiliario, DAGOSA es tu elección.
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Ofrecen <strong>análisis de rentabilidad</strong>, estudios de mercado personalizados, proyecciones de revalorización e informes detallados sobre cada zona de Móstoles. Su red internacional les permite conectar con inversores extranjeros. Discreción absoluta garantizada.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Las comisiones son variables (1-5%) según el tipo de operación y servicio requerido. También cobran a compradores por consultoría (1-2%). Operan en toda la Comunidad de Madrid, no solo Móstoles. Ideales para <strong>inversión inmobiliaria Móstoles</strong>, carteras de alquiler o patrimonios significativos.
+              </p>
+
+              <div className="bg-blue-50 p-8 rounded-lg my-12">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  📊 Conclusiones del Estudio
+                </h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  El mercado inmobiliario de Móstoles está muy bien servido por profesionales cualificados. Las 10 inmobiliarias analizadas ofrecen garantías, experiencia y resultados probados. <strong>Elegir entre las mejor valoradas puede ahorrarte entre 3.000€ y 10.000€</strong> en comisiones y conseguir mejores condiciones de venta o compra.
+                </p>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">✓</span>
+                    <span><strong>Para compradores:</strong> Tecnocasa, RedPiso y Primer Paso no cobran comisión</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">✓</span>
+                    <span><strong>Para venta rápida:</strong> Grupo Darek y MB Gestión con red activa de compradores</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">✓</span>
+                    <span><strong>Para propiedades premium:</strong> La Casa Agency con servicio boutique</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">✓</span>
+                    <span><strong>Para jóvenes:</strong> Primer Paso con ayudas y financiación especializada</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">✓</span>
+                    <span><strong>Para inversión:</strong> DAGOSA Consultores con análisis profesionales</span>
+                  </li>
+                </ul>
+                <p className="text-gray-700 mt-6 font-semibold">
+                  💡 Recomendación: Solicita ofertas de 2-3 agencias para comparar comisiones y servicios. El ahorro puede ser significativo.
+                </p>
+              </div>
+
+              <div className="text-center mt-12">
+                <Link
+                  href="/comparador"
+                  className="inline-block bg-blue-600 text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-colors shadow-lg"
+                >
+                  Ver Comparador Completo de las 10 Inmobiliarias →
+                </Link>
+              </div>
             </article>
           </div>
         </section>
@@ -206,7 +380,7 @@ export default function Home() {
                   Corazón histórico con Metro L12. Mejor conectividad, comercios y servicios.
                 </p>
                 <p className="text-xs text-blue-600 font-semibold">
-                  Agencias colaboradoras verificadas
+                  Tecnocasa, RedPiso, MB Gestión
                 </p>
               </div>
 
@@ -217,7 +391,7 @@ export default function Home() {
                   Zona premium con parque de 200 ha. Renfe Cercanías, chalets y pisos modernos.
                 </p>
                 <p className="text-xs text-blue-600 font-semibold">
-                  Agencias colaboradoras verificadas
+                  Tecnocasa, Hogares, MB Gestión
                 </p>
               </div>
 
@@ -228,7 +402,7 @@ export default function Home() {
                   Familiar consolidado. Cerca de Xanadú, mejor relación calidad-precio.
                 </p>
                 <p className="text-xs text-blue-600 font-semibold">
-                  Agencias colaboradoras verificadas
+                  RedPiso, Tecnocasa, Primer Paso
                 </p>
               </div>
 
@@ -239,7 +413,7 @@ export default function Home() {
                   Zona exclusiva de chalets. Parque de 70 ha, urbanizaciones premium.
                 </p>
                 <p className="text-xs text-blue-600 font-semibold">
-                  Agencias colaboradoras verificadas
+                  Hogares, La Casa Agency
                 </p>
               </div>
 
@@ -250,7 +424,7 @@ export default function Home() {
                   Campus URJC, Hospital Universitario. Zona joven y dinámica con Metro L12.
                 </p>
                 <p className="text-xs text-blue-600 font-semibold">
-                  Agencias colaboradoras verificadas
+                  Tecnocasa, RedPiso, MB Gestión
                 </p>
               </div>
 
@@ -272,7 +446,7 @@ export default function Home() {
                   Barrio consolidado con comercio local. Pisos económicos y familiares.
                 </p>
                 <p className="text-xs text-blue-600 font-semibold">
-                  Agencias colaboradoras verificadas
+                  Primer Paso, MB Gestión, Alfa
                 </p>
               </div>
 
@@ -283,7 +457,7 @@ export default function Home() {
                   Barrio joven con zonas verdes. Carril bici, cerca de Xanadú.
                 </p>
                 <p className="text-xs text-blue-600 font-semibold">
-                  Agencias colaboradoras verificadas
+                  Tecnocasa, RedPiso, Hogares
                 </p>
               </div>
             </div>
