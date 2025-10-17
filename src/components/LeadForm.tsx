@@ -10,7 +10,7 @@ export default function LeadForm() {
     email: '',
     phone: '',
     propertyType: 'comprar',
-    location: '',
+    city: '',
     budget: '',
     message: '',
     acceptedTerms: false,
@@ -45,7 +45,7 @@ export default function LeadForm() {
         email: '',
         phone: '',
         propertyType: 'comprar',
-        location: '',
+        city: '',
         budget: '',
         message: '',
         acceptedTerms: false,
@@ -165,15 +165,15 @@ export default function LeadForm() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label htmlFor="location" className="block text-sm font-medium text-gray-700 mb-2">
-              Ubicación *
+            <label htmlFor="city" className="block text-sm font-medium text-gray-700 mb-2">
+              Ciudad *
             </label>
             <input
               type="text"
-              id="location"
-              name="location"
+              id="city"
+              name="city"
               required
-              value={formData.location}
+              value={formData.city}
               onChange={handleChange}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               placeholder="Ciudad o zona"
