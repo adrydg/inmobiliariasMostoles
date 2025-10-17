@@ -1,5 +1,4 @@
 import { Agency } from '@/types/agency';
-import Link from 'next/link';
 
 interface AgencyCardProps {
   agency: Agency;
@@ -68,19 +67,6 @@ export default function AgencyCard({ agency }: AgencyCardProps) {
             </li>
           ))}
         </ul>
-      </div>
-
-      {/* Botón de acción fuera de la card */}
-      <div className="mt-6">
-        <Link
-          href="/contacto"
-          className="block w-full bg-amber-500 text-white text-center py-3 rounded-lg hover:bg-amber-600 transition-colors font-semibold text-sm shadow-md"
-        >
-          🎁 Recibir Propuesta Mejorada
-        </Link>
-        <p className="text-xs text-center text-gray-500 mt-2">
-          Descuentos exclusivos en comisiones
-        </p>
       </div>
     </div>
   );
