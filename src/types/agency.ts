@@ -21,9 +21,11 @@ export interface LeadForm {
   name: string;
   email: string;
   phone: string;
-  propertyType: 'comprar' | 'vender' | 'alquilar';
-  location: string;
+  propertyType?: 'comprar' | 'vender' | 'alquilar';
+  street?: string;
+  city?: string;
   budget?: string;
+  publishedInAgency?: boolean;
   message?: string;
   acceptedTerms: boolean;
 }
