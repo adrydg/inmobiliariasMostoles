@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useRef } from 'react';
+import { OpenLeadFormButton } from './LeadFormModal';
 
 export default function Navbar() {
   const [isBarriosOpen, setIsBarriosOpen] = useState(false);
@@ -73,81 +74,81 @@ export default function Navbar() {
                     📍 Ver Todos los Barrios
                   </Link>
                   <Link
-                    href="/centro-pradillo"
+                    href="/centro"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Centro / Pradillo
+                    Centro
                   </Link>
                   <Link
-                    href="/el-soto"
+                    href="/juan-de-la-cierva"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    El Soto
+                    Juan de la Cierva
                   </Link>
                   <Link
-                    href="/villafontana"
+                    href="/sector-iii"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Villafontana
+                    Sector III
                   </Link>
                   <Link
-                    href="/parque-coimbra"
+                    href="/mostoles-norte"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Parque Coimbra
+                    Móstoles Norte
                   </Link>
                   <Link
-                    href="/mostoles-sur"
+                    href="/el-bercial"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Móstoles Sur
+                    El Bercial
                   </Link>
                   <Link
-                    href="/norte-universidad"
+                    href="/la-alhondiga"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Norte Universidad
+                    La Alhóndiga
                   </Link>
                   <Link
-                    href="/estoril"
+                    href="/san-isidro"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Estoril
+                    San Isidro
                   </Link>
                   <Link
-                    href="/mostoles-este"
+                    href="/los-molinos"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Móstoles Este
+                    Los Molinos
                   </Link>
                   <Link
-                    href="/mostoles-oeste"
+                    href="/las-margaritas"
                     className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                   >
-                    Móstoles Oeste
-                  </Link>
-                  <Link
-                    href="/parque-guadarrama"
-                    className="block px-4 py-2 text-sm text-slate-700 hover:bg-amber-50 hover:text-amber-700"
-                  >
-                    Parque Guadarrama
+                    Las Margaritas
                   </Link>
                 </div>
               )}
             </div>
 
-            <Link href="/contacto" className="text-slate-700 hover:text-amber-600 transition-colors">
+            <OpenLeadFormButton className="text-slate-700 hover:text-amber-600 transition-colors cursor-pointer">
               Contacto
-            </Link>
+            </OpenLeadFormButton>
           </div>
 
-          <div>
+          <div className="flex gap-2 sm:gap-3">
             <Link
-              href="/contacto"
-              className="bg-amber-500 text-slate-900 px-6 py-2 rounded-sm hover:bg-amber-400 transition-all font-semibold shadow-md hover:shadow-lg"
+              href="/colaborar"
+              className="hidden sm:block bg-green-600 text-white px-4 py-2 rounded-sm hover:bg-green-700 transition-all font-semibold shadow-md hover:shadow-lg"
             >
-              Solicitar Ofertas
+              Soy agencia y quiero colaborar
             </Link>
+            <OpenLeadFormButton
+              className="bg-amber-500 text-slate-900 px-3 py-2 sm:px-6 sm:py-2 rounded-sm hover:bg-amber-400 transition-all font-semibold shadow-md hover:shadow-lg text-sm sm:text-base whitespace-nowrap"
+            >
+              <span className="hidden sm:inline">Solicitar Ofertas</span>
+              <span className="sm:hidden">🎁 Ofertas</span>
+            </OpenLeadFormButton>
           </div>
         </div>
       </div>
