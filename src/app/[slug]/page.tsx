@@ -330,7 +330,7 @@ export default function NeighborhoodPage({ params }: PageProps) {
       {/* SEO Article */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
-          <article className="prose prose-lg max-w-none">
+          <article className="prose prose-lg max-w-none text-gray-900">
             <h2>¿Por Qué Comprar o Alquilar en {neighborhood.name}, Móstoles?</h2>
 
             <p className="text-xl text-gray-700 leading-relaxed">
@@ -356,28 +356,28 @@ export default function NeighborhoodPage({ params }: PageProps) {
               <li>
                 <strong>Compra:</strong> Entre{' '}
                 {(
-                  parseInt(neighborhood.averagePricePerM2.sale.replace(/[^\d]/g, '')) * 0.08
+                  parseInt(neighborhood.averagePricePerM2.sale.replace(/[^\d]/g, '')) * 80
                 ).toLocaleString()}
                 € y{' '}
                 {(
                   parseInt(
                     neighborhood.averagePricePerM2.sale.split('-')[1]?.replace(/[^\d]/g, '') ||
                       neighborhood.averagePricePerM2.sale.replace(/[^\d]/g, '')
-                  ) * 0.08
+                  ) * 80
                 ).toLocaleString()}
                 €
               </li>
               <li>
                 <strong>Alquiler:</strong> Entre{' '}
                 {(
-                  parseInt(neighborhood.averagePricePerM2.rent.replace(/[^\d]/g, '')) * 0.08
+                  parseInt(neighborhood.averagePricePerM2.rent.replace(/[^\d]/g, '')) * 80
                 ).toLocaleString()}
                 € y{' '}
                 {(
                   parseInt(
                     neighborhood.averagePricePerM2.rent.split('-')[1]?.replace(/[^\d]/g, '') ||
                       neighborhood.averagePricePerM2.rent.replace(/[^\d]/g, '')
-                  ) * 0.08
+                  ) * 80
                 ).toLocaleString()}
                 € al mes
               </li>
@@ -415,16 +415,8 @@ export default function NeighborhoodPage({ params }: PageProps) {
             <h3>Mejores Inmobiliarias para Comprar o Alquilar en {neighborhood.name}</h3>
             <p>
               Si estás buscando piso en {neighborhood.name}, te recomendamos contactar con las
-              agencias inmobiliarias especializadas en esta zona:
+              agencias inmobiliarias colaboradoras especializadas en esta zona. Todas verificadas y con excelentes resultados.
             </p>
-            <ul>
-              {neighborhoodAgencies.map((agency, index) => (
-                <li key={index}>
-                  <strong>{agency.name}</strong> - {agency.rating}⭐ ({agency.reviewsCount}{' '}
-                  opiniones)
-                </li>
-              ))}
-            </ul>
 
             <h3>Conclusión: ¿Vale la Pena {neighborhood.name}?</h3>
             <p>
