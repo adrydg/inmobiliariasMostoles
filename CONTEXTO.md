@@ -1,6 +1,6 @@
 # 🏢 Inmobiliarias Móstoles - Contexto del Proyecto
 
-**Última actualización**: 2025-10-18
+**Última actualización**: 2025-10-19
 
 ---
 
